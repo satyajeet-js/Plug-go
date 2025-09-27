@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}

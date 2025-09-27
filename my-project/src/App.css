@@ -1,0 +1,164 @@
+/* App.css - Enhanced version with card styling */
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* Custom styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Enhanced button styles */
+.btn {
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* Card styling enhancements */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.card-header {
+  border-radius: 12px 12px 0 0 !important;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.shadow-lg {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15) !important;
+}
+
+/* Badge styling */
+.badge {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.35em 0.65em;
+}
+
+/* Status badge colors */
+.bg-success {
+  background-color: #22c55e !important;
+}
+
+.bg-warning {
+  background-color: #f59e0b !important;
+}
+
+.bg-danger {
+  background-color: #ef4444 !important;
+}
+
+/* Form range styling */
+.form-range {
+  height: 6px;
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: #22C55E;
+  border: none;
+  height: 18px;
+  width: 18px;
+}
+
+.form-range::-moz-range-thumb {
+  background-color: #22C55E;
+  border: none;
+  height: 18px;
+  width: 18px;
+}
+
+/* Alert optimizations */
+.alert {
+  border: none;
+  border-radius: 8px;
+}
+
+.alert-info {
+  background-color: #e0f2fe;
+  color: #0c4a6e;
+}
+
+/* Small badge styling */
+.badge.small {
+  font-size: 0.7rem;
+  padding: 0.25em 0.5em;
+}
+
+.bg-opacity-10 {
+  background-color: rgba(13, 110, 253, 0.1) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .col-md-8, .col-md-4 {
+    height: 50vh;
+  }
+  
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  
+  .btn {
+    font-size: 0.85rem;
+  }
+  
+  .card-body {
+    padding: 1rem !important;
+  }
+}
+
+/* Smooth scrolling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #22C55E #f1f1f1;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #22C55E;
+  border-radius: 3px;
+}
+
+/* Loading animation */
+.spinner-border {
+  animation: spinner-border 0.75s linear infinite;
+}
+
+/* Card hover effects */
+.card-body .btn:hover {
+  transform: translateY(-1px);
+}
+
+/* Text colors */
+.text-primary {
+  color: #2563eb !important;
+}
+
+.text-success {
+  color: #16a34a !important;
+}
+
+.text-muted {
+  color: #6b7280 !important;
+}

@@ -26,7 +26,7 @@ const Signup = () => {
         password: form.password,
       };
 
-      const res = await axios.post("http://localhost:5000/api/signup", payload, {
+      const res = await axios.post("https://plug-go-backend.onrender.com/api/signup", payload, {
         headers: { "Content-Type": "application/json" },
       });
 

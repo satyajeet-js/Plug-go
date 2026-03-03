@@ -16,7 +16,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/login",
+        "https://plug-go-backend.onrender.com/api/login",
         form,
         {
           headers: {

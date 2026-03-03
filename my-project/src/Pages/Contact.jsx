@@ -19,7 +19,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:5000/api/contact", form);
+      const res = await axios.post("https://plug-go-backend.onrender.com/api/contact", form);
       alert(res.data.message);
       setForm({ firstName: "", lastName: "", email: "", phone: "", message: "" });
     } catch (err) {
